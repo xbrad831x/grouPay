@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0171F61EAEDF6600EDCABC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0171F51EAEDF6600EDCABC /* MapKit.framework */; };
+		4C0171FE1EB1AE7B00EDCABC /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0171FD1EB1AE7B00EDCABC /* DLRadioButton.m */; };
+		4C0172001EB1B08F00EDCABC /* homeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0171FF1EB1B08F00EDCABC /* homeTabViewController.swift */; };
 		4C99BC951EA59697005693C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BC941EA59697005693C2 /* AppDelegate.swift */; };
 		4C99BC971EA59697005693C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BC961EA59697005693C2 /* ViewController.swift */; };
 		4C99BC9A1EA59697005693C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C99BC981EA59697005693C2 /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		4C99BC9F1EA59697005693C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C99BC9D1EA59697005693C2 /* LaunchScreen.storyboard */; };
 		4C99BCAA1EA59697005693C2 /* grouPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BCA91EA59697005693C2 /* grouPayTests.swift */; };
 		4C99BCB51EA59698005693C2 /* grouPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BCB41EA59698005693C2 /* grouPayUITests.swift */; };
+		4C99BCC31EA59D49005693C2 /* customLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BCC21EA59D49005693C2 /* customLoginButton.swift */; };
+		4C99BCC91EA5FC2C005693C2 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BCC81EA5FC2C005693C2 /* registerViewController.swift */; };
+		4CA28D1F1EB4562300C9E5C5 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA28D1E1EB4562300C9E5C5 /* CreateViewController.swift */; };
+		4CA28D211EB4624D00C9E5C5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA28D201EB4624D00C9E5C5 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C0171F51EAEDF6600EDCABC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4C0171FB1EB1AE4F00EDCABC /* DLRadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = "../../../Downloads/DLRadioButton-master/DLRadioButton/DLRadioButton.h"; sourceTree = "<group>"; };
+		4C0171FC1EB1AE7900EDCABC /* grouPay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "grouPay-Bridging-Header.h"; sourceTree = "<group>"; };
+		4C0171FD1EB1AE7B00EDCABC /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = "../../../Downloads/DLRadioButton-master/DLRadioButton/DLRadioButton.m"; sourceTree = "<group>"; };
+		4C0171FF1EB1B08F00EDCABC /* homeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = homeTabViewController.swift; path = ../homeTabViewController.swift; sourceTree = "<group>"; };
 		4C99BC911EA59697005693C2 /* grouPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grouPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C99BC941EA59697005693C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C99BC961EA59697005693C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,10 @@
 		4C99BCB01EA59698005693C2 /* grouPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grouPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C99BCB41EA59698005693C2 /* grouPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grouPayUITests.swift; sourceTree = "<group>"; };
 		4C99BCB61EA59698005693C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C99BCC21EA59D49005693C2 /* customLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customLoginButton.swift; sourceTree = "<group>"; };
+		4C99BCC81EA5FC2C005693C2 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = registerViewController.swift; path = ../registerViewController.swift; sourceTree = "<group>"; };
+		4CA28D1E1EB4562300C9E5C5 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateViewController.swift; path = ../CreateViewController.swift; sourceTree = "<group>"; };
+		4CA28D201EB4624D00C9E5C5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0171F61EAEDF6600EDCABC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C0171F41EAEDF6600EDCABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C0171F51EAEDF6600EDCABC /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4C99BC881EA59697005693C2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,7 @@
 				4C99BCA81EA59697005693C2 /* grouPayTests */,
 				4C99BCB31EA59698005693C2 /* grouPayUITests */,
 				4C99BC921EA59697005693C2 /* Products */,
+				4C0171F41EAEDF6600EDCABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +124,19 @@
 			isa = PBXGroup;
 			children = (
 				4C99BC941EA59697005693C2 /* AppDelegate.swift */,
+				4C0171FD1EB1AE7B00EDCABC /* DLRadioButton.m */,
+				4C0171FB1EB1AE4F00EDCABC /* DLRadioButton.h */,
 				4C99BC961EA59697005693C2 /* ViewController.swift */,
+				4CA28D1E1EB4562300C9E5C5 /* CreateViewController.swift */,
+				4C0171FF1EB1B08F00EDCABC /* homeTabViewController.swift */,
+				4C99BCC81EA5FC2C005693C2 /* registerViewController.swift */,
 				4C99BC981EA59697005693C2 /* Main.storyboard */,
+				4CA28D201EB4624D00C9E5C5 /* TableViewController.swift */,
+				4C99BCC21EA59D49005693C2 /* customLoginButton.swift */,
 				4C99BC9B1EA59697005693C2 /* Assets.xcassets */,
 				4C99BC9D1EA59697005693C2 /* LaunchScreen.storyboard */,
 				4C99BCA01EA59697005693C2 /* Info.plist */,
+				4C0171FC1EB1AE7900EDCABC /* grouPay-Bridging-Header.h */,
 			);
 			path = grouPay;
 			sourceTree = "<group>";
@@ -193,7 +227,14 @@
 				TargetAttributes = {
 					4C99BC901EA59697005693C2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WWC6476MTU;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					4C99BCA41EA59697005693C2 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -260,7 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C99BC971EA59697005693C2 /* ViewController.swift in Sources */,
+				4C0172001EB1B08F00EDCABC /* homeTabViewController.swift in Sources */,
+				4CA28D1F1EB4562300C9E5C5 /* CreateViewController.swift in Sources */,
+				4CA28D211EB4624D00C9E5C5 /* TableViewController.swift in Sources */,
+				4C0171FE1EB1AE7B00EDCABC /* DLRadioButton.m in Sources */,
 				4C99BC951EA59697005693C2 /* AppDelegate.swift in Sources */,
+				4C99BCC31EA59D49005693C2 /* customLoginButton.swift in Sources */,
+				4C99BCC91EA5FC2C005693C2 /* registerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +459,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = WWC6476MTU;
 				INFOPLIST_FILE = grouPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SJSU.grouPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "grouPay/grouPay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +475,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = WWC6476MTU;
 				INFOPLIST_FILE = grouPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SJSU.grouPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "grouPay/grouPay-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +559,7 @@
 				4C99BCBB1EA59698005693C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C99BCBC1EA59698005693C2 /* Build configuration list for PBXNativeTarget "grouPayTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +568,7 @@
 				4C99BCBE1EA59698005693C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C99BCBF1EA59698005693C2 /* Build configuration list for PBXNativeTarget "grouPayUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +577,7 @@
 				4C99BCC11EA59698005693C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

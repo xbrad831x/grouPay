@@ -23,6 +23,7 @@ class registerViewController: UIViewController, UITextViewDelegate, UIAlertViewD
     
     @IBAction func dismiss(_ sender: UIButton) {
         
+        
         username = Username.text!
         password = Password.text!
         
@@ -76,6 +77,8 @@ class registerViewController: UIViewController, UITextViewDelegate, UIAlertViewD
                         DispatchQueue.main.async {
                             self.present(registerAlert, animated: true, completion: nil)
                         }
+                        
+                        
                     }
                     else if(value == "Account Exists")
                     {

@@ -10,6 +10,7 @@
 		4C0171F61EAEDF6600EDCABC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0171F51EAEDF6600EDCABC /* MapKit.framework */; };
 		4C0171FE1EB1AE7B00EDCABC /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0171FD1EB1AE7B00EDCABC /* DLRadioButton.m */; };
 		4C0172001EB1B08F00EDCABC /* homeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0171FF1EB1B08F00EDCABC /* homeTabViewController.swift */; };
+		4C4733371EBE84D7007B6055 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4733361EBE84D6007B6055 /* Event.swift */; };
 		4C99BC951EA59697005693C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BC941EA59697005693C2 /* AppDelegate.swift */; };
 		4C99BC971EA59697005693C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BC961EA59697005693C2 /* ViewController.swift */; };
 		4C99BC9A1EA59697005693C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C99BC981EA59697005693C2 /* Main.storyboard */; };
@@ -19,8 +20,10 @@
 		4C99BCB51EA59698005693C2 /* grouPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BCB41EA59698005693C2 /* grouPayUITests.swift */; };
 		4C99BCC31EA59D49005693C2 /* customLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BCC21EA59D49005693C2 /* customLoginButton.swift */; };
 		4C99BCC91EA5FC2C005693C2 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BCC81EA5FC2C005693C2 /* registerViewController.swift */; };
+		4C9B37B11EBD73CF000EA159 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B37B01EBD73CF000EA159 /* EventsViewController.swift */; };
+		4C9B37B31EBD73F1000EA159 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B37B21EBD73F1000EA159 /* ExpensesViewController.swift */; };
+		4C9B37B51EBD7604000EA159 /* EventViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B37B41EBD7604000EA159 /* EventViewCell.swift */; };
 		4CA28D1F1EB4562300C9E5C5 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA28D1E1EB4562300C9E5C5 /* CreateViewController.swift */; };
-		4CA28D211EB4624D00C9E5C5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA28D201EB4624D00C9E5C5 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,7 @@
 		4C0171FC1EB1AE7900EDCABC /* grouPay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "grouPay-Bridging-Header.h"; sourceTree = "<group>"; };
 		4C0171FD1EB1AE7B00EDCABC /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = "../../../Downloads/DLRadioButton-master/DLRadioButton/DLRadioButton.m"; sourceTree = "<group>"; };
 		4C0171FF1EB1B08F00EDCABC /* homeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = homeTabViewController.swift; path = ../homeTabViewController.swift; sourceTree = "<group>"; };
+		4C4733361EBE84D6007B6055 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		4C99BC911EA59697005693C2 /* grouPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grouPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C99BC941EA59697005693C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C99BC961EA59697005693C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,8 +65,10 @@
 		4C99BCB61EA59698005693C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C99BCC21EA59D49005693C2 /* customLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customLoginButton.swift; sourceTree = "<group>"; };
 		4C99BCC81EA5FC2C005693C2 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = registerViewController.swift; path = ../registerViewController.swift; sourceTree = "<group>"; };
+		4C9B37B01EBD73CF000EA159 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		4C9B37B21EBD73F1000EA159 /* ExpensesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		4C9B37B41EBD7604000EA159 /* EventViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewCell.swift; sourceTree = "<group>"; };
 		4CA28D1E1EB4562300C9E5C5 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateViewController.swift; path = ../CreateViewController.swift; sourceTree = "<group>"; };
-		4CA28D201EB4624D00C9E5C5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +137,10 @@
 				4C0171FF1EB1B08F00EDCABC /* homeTabViewController.swift */,
 				4C99BCC81EA5FC2C005693C2 /* registerViewController.swift */,
 				4C99BC981EA59697005693C2 /* Main.storyboard */,
-				4CA28D201EB4624D00C9E5C5 /* TableViewController.swift */,
+				4C9B37B01EBD73CF000EA159 /* EventsViewController.swift */,
+				4C4733361EBE84D6007B6055 /* Event.swift */,
+				4C9B37B41EBD7604000EA159 /* EventViewCell.swift */,
+				4C9B37B21EBD73F1000EA159 /* ExpensesViewController.swift */,
 				4C99BCC21EA59D49005693C2 /* customLoginButton.swift */,
 				4C99BC9B1EA59697005693C2 /* Assets.xcassets */,
 				4C99BC9D1EA59697005693C2 /* LaunchScreen.storyboard */,
@@ -227,7 +236,7 @@
 				TargetAttributes = {
 					4C99BC901EA59697005693C2 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = WWC6476MTU;
+						DevelopmentTeam = 6WA6Y7KBQJ;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -301,13 +310,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C99BC971EA59697005693C2 /* ViewController.swift in Sources */,
+				4C4733371EBE84D7007B6055 /* Event.swift in Sources */,
+				4C9B37B51EBD7604000EA159 /* EventViewCell.swift in Sources */,
+				4C9B37B11EBD73CF000EA159 /* EventsViewController.swift in Sources */,
 				4C0172001EB1B08F00EDCABC /* homeTabViewController.swift in Sources */,
 				4CA28D1F1EB4562300C9E5C5 /* CreateViewController.swift in Sources */,
-				4CA28D211EB4624D00C9E5C5 /* TableViewController.swift in Sources */,
 				4C0171FE1EB1AE7B00EDCABC /* DLRadioButton.m in Sources */,
 				4C99BC951EA59697005693C2 /* AppDelegate.swift in Sources */,
 				4C99BCC31EA59D49005693C2 /* customLoginButton.swift in Sources */,
 				4C99BCC91EA5FC2C005693C2 /* registerViewController.swift in Sources */,
+				4C9B37B31EBD73F1000EA159 /* ExpensesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = WWC6476MTU;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
 				INFOPLIST_FILE = grouPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SJSU.grouPay;
@@ -476,7 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = WWC6476MTU;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
 				INFOPLIST_FILE = grouPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SJSU.grouPay;

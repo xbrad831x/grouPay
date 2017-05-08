@@ -8,13 +8,21 @@
 
 import UIKit
 
-class homeTabViewController: UITabBarController {
+class homeTabViewController: UITabBarController, UITabBarControllerDelegate {
+    
+    let cvc: CreateViewController! = nil
     
     var userid: String!
     
     override func viewDidLoad() {
-        let vc = self.viewControllers?[1] as! CreateViewController
-        vc.id = self.userid
+        self.delegate = self
+        
+        let cvc = self.viewControllers?[1] as! CreateViewController
+        cvc.id = self.userid
+        
+        let evvc = self.viewControllers?[0] as! EventsViewController
+        evvc.id = self.userid
+        
     }
 
 }

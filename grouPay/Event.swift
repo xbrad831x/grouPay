@@ -17,5 +17,5 @@ class Event {
     var created: String = "";
     var due: String = "";
     var amount: String = "";
-    
+    var amountneed: String = "";
 }

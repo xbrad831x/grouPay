@@ -1,34 +1,35 @@
 //
-//  EventsViewController.swift
+//  InviteViewController.swift
 //  grouPay
 //
-//  Created by Brandon on 5/5/17.
+//  Created by Brandon on 5/8/17.
 //  Copyright © 2017 Brandon. All rights reserved.
 //
 
 import UIKit
 
-class EventsViewController: UITableViewController {
+class InviteViewController: UITableViewController {
     
-    private var url = "http://192.168.1.117/api/retrieve_events.php"
+    private var url = "http://192.168.1.117/api/retrieve_invites.php"
     var id: String!
+
     var events: [Event] = []
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         load_data()
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0)
     }
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         if(events.count < 1)
@@ -40,25 +41,29 @@ class EventsViewController: UITableViewController {
             return events.count
         }
     }
-
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "eventcell", for: indexPath) as! EventViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "invitecell", for: indexPath) as! InviteViewCell
         
         if (events.count > 0)
         {
             let e = events[indexPath.row]
             cell.Owner.text = e.ownername
-            cell.eventTitle.text = e.title
+            cell.Title.text = e.title
+            cell.Amount.text = e.amountneed
             cell.Due.text = e.due
             cell.OwnerLabel.text = "Owner:"
             cell.DueLabel.text = "Due:"
+            cell.AmountLabel.text = "Amount Due:"
             
         }
         else
         {
             cell.Owner.text = ""
-            cell.eventTitle.text = "No Events Available"
+            cell.Title.text = "No Pending Invites"
+            cell.AmountLabel.text = ""
+            cell.Amount.text = ""
             cell.Due.text = ""
             cell.DueLabel.text = ""
             cell.OwnerLabel.text = ""
@@ -85,7 +90,7 @@ class EventsViewController: UITableViewController {
                     if(json.count > 0)
                     {
                         
-                        let parsedjson = json["Events"] as! [[String: String]]
+                        let parsedjson = json["Invites"] as! [[String: String]]
                         
                         for eventData in parsedjson
                         {
@@ -118,7 +123,11 @@ class EventsViewController: UITableViewController {
                             if let amount = eventData["Amount"] as String! {
                                 event.amount = amount
                             }
-
+                            
+                            if let amountneed = eventData["AmountNeed"] as String! {
+                                event.amountneed = amountneed
+                            }
+                            
                             self.events.append(event)
                             
                             DispatchQueue.main.async {
@@ -139,16 +148,15 @@ class EventsViewController: UITableViewController {
             }
         }
         task.resume()
-
+        
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
-        let detailView = sb.instantiateViewController(withIdentifier: "eventdetail") as! myEventDetailViewController
+        let detailView = sb.instantiateViewController(withIdentifier: "invitedetail") as! inviteDetailViewController
         detailView.event = events[indexPath.row]
         self.present(detailView, animated: true, completion: nil)
     }
     
-
 }

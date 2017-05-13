@@ -23,6 +23,9 @@ class homeTabViewController: UITabBarController, UITabBarControllerDelegate {
         let evvc = self.viewControllers?[0] as! EventsViewController
         evvc.id = self.userid
         
+        let invc = self.viewControllers?[3] as! InviteViewController
+        invc.id = self.userid
+        
     }
 
 }

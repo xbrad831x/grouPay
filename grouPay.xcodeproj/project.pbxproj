@@ -10,7 +10,12 @@
 		4C0171F61EAEDF6600EDCABC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0171F51EAEDF6600EDCABC /* MapKit.framework */; };
 		4C0171FE1EB1AE7B00EDCABC /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0171FD1EB1AE7B00EDCABC /* DLRadioButton.m */; };
 		4C0172001EB1B08F00EDCABC /* homeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0171FF1EB1B08F00EDCABC /* homeTabViewController.swift */; };
+		4C2930631EC5319400F7133A /* myEventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2930621EC5319300F7133A /* myEventDetailViewController.swift */; };
+		4C2930651EC56C0A00F7133A /* inviteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2930641EC56C0A00F7133A /* inviteDetailViewController.swift */; };
 		4C4733371EBE84D7007B6055 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4733361EBE84D6007B6055 /* Event.swift */; };
+		4C8177541EC1915500B2499F /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8177531EC1915500B2499F /* InviteViewController.swift */; };
+		4C8177561EC1970C00B2499F /* InviteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8177551EC1970C00B2499F /* InviteViewCell.swift */; };
+		4C8177581EC19D4000B2499F /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8177571EC19D4000B2499F /* LogOutViewController.swift */; };
 		4C99BC951EA59697005693C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BC941EA59697005693C2 /* AppDelegate.swift */; };
 		4C99BC971EA59697005693C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BC961EA59697005693C2 /* ViewController.swift */; };
 		4C99BC9A1EA59697005693C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C99BC981EA59697005693C2 /* Main.storyboard */; };
@@ -49,7 +54,12 @@
 		4C0171FC1EB1AE7900EDCABC /* grouPay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "grouPay-Bridging-Header.h"; sourceTree = "<group>"; };
 		4C0171FD1EB1AE7B00EDCABC /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = "../../../Downloads/DLRadioButton-master/DLRadioButton/DLRadioButton.m"; sourceTree = "<group>"; };
 		4C0171FF1EB1B08F00EDCABC /* homeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = homeTabViewController.swift; path = ../homeTabViewController.swift; sourceTree = "<group>"; };
+		4C2930621EC5319300F7133A /* myEventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myEventDetailViewController.swift; sourceTree = "<group>"; };
+		4C2930641EC56C0A00F7133A /* inviteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inviteDetailViewController.swift; sourceTree = "<group>"; };
 		4C4733361EBE84D6007B6055 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4C8177531EC1915500B2499F /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		4C8177551EC1970C00B2499F /* InviteViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewCell.swift; sourceTree = "<group>"; };
+		4C8177571EC19D4000B2499F /* LogOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
 		4C99BC911EA59697005693C2 /* grouPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grouPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C99BC941EA59697005693C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C99BC961EA59697005693C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +147,11 @@
 				4C0171FF1EB1B08F00EDCABC /* homeTabViewController.swift */,
 				4C99BCC81EA5FC2C005693C2 /* registerViewController.swift */,
 				4C99BC981EA59697005693C2 /* Main.storyboard */,
+				4C2930641EC56C0A00F7133A /* inviteDetailViewController.swift */,
+				4C2930621EC5319300F7133A /* myEventDetailViewController.swift */,
+				4C8177571EC19D4000B2499F /* LogOutViewController.swift */,
+				4C8177551EC1970C00B2499F /* InviteViewCell.swift */,
+				4C8177531EC1915500B2499F /* InviteViewController.swift */,
 				4C9B37B01EBD73CF000EA159 /* EventsViewController.swift */,
 				4C4733361EBE84D6007B6055 /* Event.swift */,
 				4C9B37B41EBD7604000EA159 /* EventViewCell.swift */,
@@ -312,13 +327,18 @@
 				4C99BC971EA59697005693C2 /* ViewController.swift in Sources */,
 				4C4733371EBE84D7007B6055 /* Event.swift in Sources */,
 				4C9B37B51EBD7604000EA159 /* EventViewCell.swift in Sources */,
+				4C8177541EC1915500B2499F /* InviteViewController.swift in Sources */,
 				4C9B37B11EBD73CF000EA159 /* EventsViewController.swift in Sources */,
+				4C8177561EC1970C00B2499F /* InviteViewCell.swift in Sources */,
+				4C8177581EC19D4000B2499F /* LogOutViewController.swift in Sources */,
 				4C0172001EB1B08F00EDCABC /* homeTabViewController.swift in Sources */,
+				4C2930651EC56C0A00F7133A /* inviteDetailViewController.swift in Sources */,
 				4CA28D1F1EB4562300C9E5C5 /* CreateViewController.swift in Sources */,
 				4C0171FE1EB1AE7B00EDCABC /* DLRadioButton.m in Sources */,
 				4C99BC951EA59697005693C2 /* AppDelegate.swift in Sources */,
 				4C99BCC31EA59D49005693C2 /* customLoginButton.swift in Sources */,
 				4C99BCC91EA5FC2C005693C2 /* registerViewController.swift in Sources */,
+				4C2930631EC5319400F7133A /* myEventDetailViewController.swift in Sources */,
 				4C9B37B31EBD73F1000EA159 /* ExpensesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

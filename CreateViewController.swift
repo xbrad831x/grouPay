@@ -121,6 +121,7 @@ class CreateViewController: UIViewController {
         request.httpMethod = "POST"
         let postString = "Owner=\(id!)&Title=\(titleEvent!)&Amount=\(amount!)&People=\(people!)&Description=\(describing!)&Date=\(dueDate!)&Privacy=\(isPrivate)"
         request.httpBody = postString.data(using: .utf8)
+        print (postString)
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data else {
                 print("request failed \(error)")

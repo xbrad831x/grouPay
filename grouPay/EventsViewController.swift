@@ -118,6 +118,11 @@ class EventsViewController: UITableViewController {
                             if let amount = eventData["Amount"] as String! {
                                 event.amount = amount
                             }
+                            
+                            if let people = eventData["People"] as String!
+                                {
+                                event.people = people
+                            }
 
                             self.events.append(event)
                             

@@ -16,7 +16,7 @@ class InviteViewController: UITableViewController {
     var events: [Event] = []
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+        super.viewWillAppear(animated)
         load_data()
     }
     
@@ -141,10 +141,11 @@ class InviteViewController: UITableViewController {
                     }
                     
                 }
-            } catch let parseError {
-                print("parsing error: \(parseError)")
-                let responseString = String(data: data, encoding: .utf8)
-                print("raw response: \(responseString)")
+            } catch let _ {
+                self.events.removeAll()
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
             }
         }
         task.resume()
@@ -153,10 +154,14 @@ class InviteViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let sb = UIStoryboard(name: "Main", bundle: nil)
-        let detailView = sb.instantiateViewController(withIdentifier: "invitedetail") as! inviteDetailViewController
-        detailView.event = events[indexPath.row]
-        self.present(detailView, animated: true, completion: nil)
+        if(events.count > 0)
+        {
+            let sb = UIStoryboard(name: "Main", bundle: nil)
+            let detailView = sb.instantiateViewController(withIdentifier: "invitedetail") as! inviteDetailViewController
+            detailView.event = events[indexPath.row]
+            detailView.userid = self.id
+            self.present(detailView, animated: true, completion: nil)
+        }
     }
     
 }

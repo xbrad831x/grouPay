@@ -26,7 +26,6 @@
 		4C99BCC31EA59D49005693C2 /* customLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BCC21EA59D49005693C2 /* customLoginButton.swift */; };
 		4C99BCC91EA5FC2C005693C2 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99BCC81EA5FC2C005693C2 /* registerViewController.swift */; };
 		4C9B37B11EBD73CF000EA159 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B37B01EBD73CF000EA159 /* EventsViewController.swift */; };
-		4C9B37B31EBD73F1000EA159 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B37B21EBD73F1000EA159 /* ExpensesViewController.swift */; };
 		4C9B37B51EBD7604000EA159 /* EventViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B37B41EBD7604000EA159 /* EventViewCell.swift */; };
 		4CA28D1F1EB4562300C9E5C5 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA28D1E1EB4562300C9E5C5 /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
@@ -76,7 +75,6 @@
 		4C99BCC21EA59D49005693C2 /* customLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customLoginButton.swift; sourceTree = "<group>"; };
 		4C99BCC81EA5FC2C005693C2 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = registerViewController.swift; path = ../registerViewController.swift; sourceTree = "<group>"; };
 		4C9B37B01EBD73CF000EA159 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
-		4C9B37B21EBD73F1000EA159 /* ExpensesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
 		4C9B37B41EBD7604000EA159 /* EventViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewCell.swift; sourceTree = "<group>"; };
 		4CA28D1E1EB4562300C9E5C5 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateViewController.swift; path = ../CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,7 +153,6 @@
 				4C9B37B01EBD73CF000EA159 /* EventsViewController.swift */,
 				4C4733361EBE84D6007B6055 /* Event.swift */,
 				4C9B37B41EBD7604000EA159 /* EventViewCell.swift */,
-				4C9B37B21EBD73F1000EA159 /* ExpensesViewController.swift */,
 				4C99BCC21EA59D49005693C2 /* customLoginButton.swift */,
 				4C99BC9B1EA59697005693C2 /* Assets.xcassets */,
 				4C99BC9D1EA59697005693C2 /* LaunchScreen.storyboard */,
@@ -339,7 +336,6 @@
 				4C99BCC31EA59D49005693C2 /* customLoginButton.swift in Sources */,
 				4C99BCC91EA5FC2C005693C2 /* registerViewController.swift in Sources */,
 				4C2930631EC5319400F7133A /* myEventDetailViewController.swift in Sources */,
-				4C9B37B31EBD73F1000EA159 /* ExpensesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

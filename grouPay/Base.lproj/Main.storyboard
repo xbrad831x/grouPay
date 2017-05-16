@@ -118,7 +118,6 @@
                     <connections>
                         <segue destination="PBb-NL-BRj" kind="relationship" relationship="viewControllers" id="gxe-cp-1R8"/>
                         <segue destination="d1H-fO-Yuf" kind="relationship" relationship="viewControllers" id="9ki-Om-vmk"/>
-                        <segue destination="zZS-jG-Wdl" kind="relationship" relationship="viewControllers" id="ssr-XW-Tqn"/>
                         <segue destination="URG-2E-JYT" kind="relationship" relationship="viewControllers" id="GTV-PG-2pV"/>
                         <segue destination="Gfx-DW-5NM" kind="relationship" relationship="viewControllers" id="mR7-uI-QBd"/>
                     </connections>
@@ -353,7 +352,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(Optional) Username to invite seperate by a space" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0vJ-Sy-YBa">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(Optional) Invite users example Bob:80 (User:$)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0vJ-Sy-YBa">
                                 <rect key="frame" x="16" y="104" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -431,44 +430,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JMb-Z6-XSm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2612" y="150"/>
-        </scene>
-        <!--Expenses-->
-        <scene sceneID="q0n-nM-RMB">
-            <objects>
-                <tableViewController id="zZS-jG-Wdl" customClass="ExpensesViewController" customModule="grouPay" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="KOU-iu-LaY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="81" id="3Cr-iV-XHd">
-                                <rect key="frame" x="0.0" y="28" width="375" height="81"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Cr-iV-XHd" id="bSv-Hd-U7t">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="81"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4MU-LF-9ew">
-                                            <rect key="frame" x="166" y="0.0" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="zZS-jG-Wdl" id="SiV-NC-sZh"/>
-                            <outlet property="delegate" destination="zZS-jG-Wdl" id="XDZ-4Y-Pi4"/>
-                        </connections>
-                    </tableView>
-                    <tabBarItem key="tabBarItem" title="Expenses" id="wbI-Dz-CaH"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ar6-Yd-NKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2612" y="888"/>
         </scene>
         <!--Invites-->
         <scene sceneID="C9p-Ew-Njy">
